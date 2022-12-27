@@ -1,0 +1,114 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.main{
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 16px;
+}
+p{
+    text-align: center;
+    padding: 0.5rem;
+    background-color:rgba(0, 250, 142, 0.775);
+    color: black;
+    font-weight: bold;
+}
+.form{
+    width: 100%;
+
+}
+h2{
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+#marc{
+    margin-left: 25%;
+    padding: 2rem 0rem 2rem 0rem;
+    margin-right: 25%;
+    
+}
+#marca{
+    width: 70%;
+}
+#year{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+#año{
+    width: 70%;
+    margin-left: 1.4rem;
+
+}
+label{
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 0.5rem;
+}
+.tipo{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    align-items: center;
+}
+#btn{
+    display: block;
+}
+#basico{
+    
+    margin-right: 8rem;
+}
+#btn{
+    position: absolute;
+    left: 38%;
+    margin: 1rem 0rem 1rem 0rem;
+    width: 25%;
+    background-color:rgba(0, 250, 142, 0.775);
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    border-color: rgba(0, 250, 142, 0.775);
+    color: black;
+    font-weight: bold;
+}
+.render{
+    position: absolute;
+    left: 50%px;
+    top: 0px;
+}
+.mensaje-error{
+    position: absolute;
+    left: 38%;
+    width: 25%;
+    bottom: 26%;
+    padding: 0.1rem;
+    background-color: white;
+    color: red;
+    border: solid 1px red;   
+}
+.resultado p{
+    padding: 4px;
+    font-weight:normal;
+}
+.resultado{
+    margin-top: 0.5rem;
+    width: 300px;
+}
+span{
+    font-weight: bold;
+}
+.resumen{
+    font-weight: bold;
+}
